@@ -1,7 +1,7 @@
 name: queryx_getx
 description: >
   GetX bindings for QueryX — reactive Query, Mutation & InfiniteQuery controllers with .obs state, automatic Obx/GetX rebuilds, and zero manual listener wiring.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Noman-Baig
 repository: https://github.com/Noman-Baig/queryx_getx
 
