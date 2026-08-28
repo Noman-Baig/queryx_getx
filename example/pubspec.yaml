@@ -1,0 +1,21 @@
+name: queryx_getx_example
+description: Runnable Flutter example of queryx_getx.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  queryx_getx:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

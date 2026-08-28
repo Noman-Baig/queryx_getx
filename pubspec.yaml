@@ -1,0 +1,32 @@
+name: queryx_getx
+description: >
+  GetX bindings for QueryX — reactive Query, Mutation & InfiniteQuery controllers with .obs state, automatic Obx/GetX rebuilds, and zero manual listener wiring.
+version: 0.1.0
+homepage: https://github.com/Noman-Baig
+repository: https://github.com/Noman-Baig/queryx_getx
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+# NOTE: unlike queryx_riverpod (which depends on the pure-Dart `riverpod`
+# package), GetX itself (`get`) is a combined package that pulls in
+# Flutter — there's no flutter-agnostic split like riverpod/flutter_riverpod.
+# That means this package's tests need `flutter test`, not plain `dart
+# test`; see test/ and the README for details.
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  queryx: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^4.0.0
+
+topics:
+  - getx
+  - networking
+  - caching
+  - state-management
